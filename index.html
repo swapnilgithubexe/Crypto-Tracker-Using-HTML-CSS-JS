@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav>
+    <div class="left-nav">
+      <a href="/" class="title">Crypto Dashboard</a>
+    </div>
+    <div class="right-nav">
+      <a href="/">Home</a>
+      <a href="./routes/favorite.html">Favorites</a>
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="searchBox" placeholder="Search">
+      </div>
+    </div>
+  </nav>
+  <main>
+    <table id="crypto-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Icon</th>
+          <th>Name</th>
+          <th>Price
+            <i class="fa-solid fa-arrow-up" id="sort-price-asc"></i>
+            <i class="fa-solid fa-arrow-down" id="sort-price-desc"></i>
+          </th>
+          <th>Volume
+            <i class="fa-solid fa-arrow-up" id="sort-price-asc"></i>
+            <i class="fa-solid fa-arrow-down" id="sort-price-desc"></i>
+          </th>
+          <th>Market Cap
+            <i class="fa-solid fa-arrow-up" id="sort-price-asc"></i>
+            <i class="fa-solid fa-arrow-down" id="sort-price-desc"></i>
+          </th>
+          <th>Favorite</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </main>
+</body>
+
+</html>
